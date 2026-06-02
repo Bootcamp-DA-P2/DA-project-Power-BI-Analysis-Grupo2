@@ -29,6 +29,42 @@ La empresa ha sido contratada por Airbnb para analizar datos de distintas ciudad
 
 ---
 
+## 📁 Estructura de datos
+
+Para ejecutar correctamente el proyecto, es necesario disponer de los archivos CSV originales.
+
+### 📥 Dataset
+
+Los datos pueden descargarse desde el siguiente enlace:
+
+👉 **[Airbnb Dataset - Archivos CSV](https://drive.google.com/drive/folders/17sYr63LjEX30-3-KjXIaPP-bRwEmMqpf)**
+
+### 📂 Ubicación de los archivos
+
+Los archivos deben colocarse en una carpeta local con la siguiente estructura:
+
+```text
+/data
+├── london_airbnb.csv
+├── new_york_airbnb.csv
+├── madrid_airbnb.csv
+├── milan_airbnb.csv
+├── sydney_airbnb.csv
+└── tokyo_airbnb.csv
+```
+
+### ⚙️ Configuración en Power BI
+
+El origen de datos está configurado para leer los archivos desde la carpeta `/data`.
+
+En caso de cambiar la ubicación, es necesario actualizar la ruta en Power Query:
+
+**Inicio → Transformar datos → Configuración de origen de datos**
+
+> El proyecto utiliza una conexión basada en carpeta, por lo que todos los archivos CSV deben mantenerse dentro del mismo directorio para garantizar el correcto funcionamiento del proceso ETL.
+
+---
+
 ## 🧹 Proceso ETL (Extracción, Transformación y Carga)
 
 ### 🔍 Limpieza y transformación de datos
