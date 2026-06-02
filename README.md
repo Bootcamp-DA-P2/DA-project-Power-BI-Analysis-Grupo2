@@ -181,10 +181,28 @@ Panel geográfico destinado a visualizar la distribución espacial de los alojam
 
 ## 🧠 Insights de negocio
 
-- Existen diferencias significativas de precios entre ciudades
-- Los alojamientos tipo “Entire home/apt” concentran los precios más altos
-- Los mercados premium están geográficamente concentrados
-- La distribución de precios está sesgada, por lo que la mediana es una métrica más representativa que la media
+A partir del análisis realizado en el dashboard de Airbnb se han identificado los siguientes insights clave:
+
+- **Concentración del revenue en pocos mercados:**  
+  El volumen de ingresos está fuertemente concentrado en ciudades como Londres y Nueva York, lo que indica una alta dependencia de un número reducido de mercados estratégicos.
+
+- **El precio se define a nivel barrio, no ciudad:**  
+  Las diferencias de precios dentro de una misma ciudad son más significativas que entre ciudades, lo que refuerza la importancia del análisis a nivel micro-geográfico.
+
+- **El segmento premium es más eficiente:**  
+  Los alojamientos premium generan ingresos similares al segmento medio con una oferta significativamente menor, lo que indica una mayor rentabilidad por unidad.
+
+- **Tokio como mercado diferenciado:**  
+  Tokio presenta un comportamiento atípico con alta profesionalización y bajo volumen de ingresos, lo que lo posiciona como un mercado especializado más que masivo.
+
+- **Estacionalidad del mercado:**  
+  Se observan patrones estacionales claros con variaciones entre hemisferios y ciudades, influenciados por factores climáticos y turísticos locales.
+
+- **Concentración geográfica de la oferta:**  
+  La mayor parte de los alojamientos se concentra en un número reducido de ciudades, especialmente en grandes hubs urbanos europeos.
+
+- **Diferentes niveles de profesionalización:**  
+  Existen distintos modelos de mercado: profesional (Tokio), residencial (Nueva York, Sydney) e híbrido (Madrid).
 
 ---
 
@@ -199,9 +217,16 @@ Panel geográfico destinado a visualizar la distribución espacial de los alojam
 
 ## 🚀 Conclusión
 
-Este proyecto demuestra la capacidad de transformar datos complejos en información visual e intuitiva mediante herramientas de Business Intelligence.
+El análisis demuestra que el crecimiento de Airbnb no depende únicamente del volumen de alojamientos, sino de la optimización del valor por mercado.
 
-El dashboard final permite analizar el comportamiento del mercado de Airbnb desde una perspectiva geográfica, económica y estructural.
+Los principales factores estratégicos identificados son:
+
+- La concentración del valor en pocos mercados clave  
+- La importancia del análisis a nivel barrio frente a ciudad  
+- El alto potencial del segmento premium  
+- La necesidad de adaptar estrategias según el nivel de profesionalización del mercado  
+
+👉 En conjunto, el crecimiento futuro de Airbnb pasa por identificar mercados de alto valor, potenciar el segmento premium y adaptar la estrategia a la estructura de cada mercado.
 
 ---
 
@@ -229,6 +254,21 @@ El flujo de trabajo se estructuró mediante estados de seguimiento para facilita
 ### 🔗 Tablero Kanban
 
 [Ver GitHub Project Board](https://github.com/orgs/Bootcamp-DA-P2/projects/24)
+
+---
+
+## 📽️ Presentación del proyecto
+
+A continuación se puede consultar la presentación ejecutiva del análisis realizado, donde se resumen los principales insights, conclusiones y oportunidades de negocio derivadas del dashboard de Airbnb.
+
+👉 [Ver presentación del proyecto](https://gamma.app/docs/Airbnb-Market-Analysis-wrxampenhd6dqmy)
+
+La presentación incluye:
+- Contexto del proyecto
+- Principales KPIs analizados
+- Insights clave del negocio
+- Conclusiones estratégicas
+- Recomendaciones de crecimiento para Airbnb
 
 ## 👥 Equipo de desarrollo
 
