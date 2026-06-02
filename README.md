@@ -208,7 +208,7 @@ A partir del análisis realizado en el dashboard de Airbnb se han identificado l
 
 ## 🔗 Interactividad del dashboard
 
-- Navegación entre páginas mediante botones personalizados
+- Implementación de una barra de navegación lateral para el cambio entre páginas del dashboard
 - Filtros globales sincronizados entre páginas
 - Segmentación por ciudad, fecha y rango de precio
 - Jerarquías geográficas (ciudad → barrio)
